@@ -10,3 +10,9 @@ def factorial(value):
         return 1
     else:
         return value * factorial(value - 1)
+    
+    
+def is_prime(intval):
+    if intval % 2 == 0:
+        return True
+    return False
